@@ -1,0 +1,19 @@
+self["webpackHotUpdatees6_react"](0,{
+
+/***/ 38:
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\js\\Operations.js: Identifier directly after number. (20:25)\n\n\u001b[0m \u001b[90m 18 |\u001b[39m           setOperations(data\u001b[33m.\u001b[39mdata)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m         }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m         getOperations(\u001b[35m243\u001b[39mc19d8\u001b[33m-\u001b[39m\u001b[35m295\u001b[39mf\u001b[33m-\u001b[39m\u001b[35m432\u001b[39mb\u001b[33m-\u001b[39m\u001b[35m9649\u001b[39m\u001b[33m-\u001b[39m\u001b[35m7\u001b[39mece7cb6111c\u001b[32m\");\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m       }\u001b[33m,\u001b[39m [])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m       \u001b[36mif\u001b[39m (operations \u001b[33m===\u001b[39m \u001b[36mfalse\u001b[39m) {\u001b[0m\n    at instantiate (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:64:32)\n    at constructor (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:364:12)\n    at JSXParserMixin.raise (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:3253:19)\n    at JSXParserMixin.readNumber (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:3109:18)\n    at JSXParserMixin.getTokenFromCode (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:2862:14)\n    at JSXParserMixin.getTokenFromCode (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:7020:18)\n    at JSXParserMixin.nextToken (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:2376:10)\n    at JSXParserMixin.next (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:2297:10)\n    at JSXParserMixin.parseCoverCallAndAsyncArrowHead (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:10949:10)\n    at JSXParserMixin.parseSubscript (C:\\Users\\JP\\Documents\\Programowanie\\CodersLab_React_Redux\\React - Warsztat\\ONL_FSB_E_22_React_Warsztat\\node_modules\\@babel\\parser\\lib\\index.js:10901:19)");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("7a237038dea049c5deee")
+/******/ })();
+/******/ 
+/******/ }
+);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC4zNWNmZTA5M2M2NWYwNWFmMDA5MC5ob3QtdXBkYXRlLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7VUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL2VzNi1yZWFjdC93ZWJwYWNrL3J1bnRpbWUvZ2V0RnVsbEhhc2giXSwic291cmNlc0NvbnRlbnQiOlsiX193ZWJwYWNrX3JlcXVpcmVfXy5oID0gKCkgPT4gKFwiN2EyMzcwMzhkZWEwNDljNWRlZWVcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=
