@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { API_KEY, API_URL } from "./API/constants";
 import Operation from "./Operation";
 
-const Operations = ({ taskId }) => {
+const Operations = ({ taskId, newOp }) => {
   const [operations, setOperations] = useState([]);
 
   useEffect(() => {
@@ -13,11 +13,10 @@ const Operations = ({ taskId }) => {
         },
       });
       const data = await response.json();
-      console.log(data.data);
       setOperations(data.data);
     };
     getOperations(taskId);
-  }, []);
+  }, [newOp]);
 
   if (operations === false) {
     return <h1>...</h1>;

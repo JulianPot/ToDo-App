@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { API_KEY, API_URL } from "./API/constants";
+import Tasks from "./Tasks";
 
 const NewTask = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
+  const [tasksReload, setTasksReload] = useState(true);
 
   const submitNewTask = (e) => {
     e.preventDefault();
@@ -17,12 +19,16 @@ const NewTask = () => {
         body: JSON.stringify({ title, description, status: "open" }),
       };
 
-    await fetch(`${API_URL}/tasks`, requestOptions);
+      await fetch(`${API_URL}/tasks`, requestOptions);
+      setTitle("");
+      setDescription("");
+      setTasksReload(prev => !prev);
     };
     addNewTask(title, description);
   };
 
   return (
+    <>
     <div className="card shadow">
       <div className="card-body">
         <h1 className="card-title">New task</h1>
@@ -54,6 +60,8 @@ const NewTask = () => {
         </form>
       </div>
     </div>
+    <Tasks newTask={tasksReload}/>
+    </>
   );
 };
 

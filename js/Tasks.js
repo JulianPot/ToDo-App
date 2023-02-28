@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { API_KEY, API_URL } from "./API/constants";
 import Task from "./Task";
 
-const Tasks = () => {
+const Tasks = ({newTask}) => {
   const [allTasks, setAllTasks] = useState([]);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ const Tasks = () => {
       setAllTasks(data.data);
     };
     getTasks();
-  }, []);
+  }, [newTask]);
 
   if (allTasks === false) {
         return <h1>...</h1>;

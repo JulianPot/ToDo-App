@@ -6,6 +6,7 @@ const Task = ({ data }) => {
   const [task, setTask] = useState(data);
   const [addView, setAddView] = useState(false);
   const [operationDescription, setOperationDescription] = useState("");
+  const [operationReload, setOperationReload] = useState(true);
 
   const finishTask = (title, description, id, e) => {
     e.preventDefault();
@@ -66,6 +67,9 @@ const Task = ({ data }) => {
         }),
       };
       await fetch(`${API_URL}/tasks/${id}/operations`, requestOptions);
+      setOperationDescription("");
+      setAddView(false);
+      setOperationReload(prev => !prev);
     };
     newOperation(id);
   };
@@ -131,7 +135,7 @@ const Task = ({ data }) => {
             </form>
           </div>
         )}
-        <Operations taskId={task.id} />
+        <Operations taskId={task.id} newOp={operationReload} />
       </section>
     );
   }
